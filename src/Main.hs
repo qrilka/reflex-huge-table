@@ -18,7 +18,7 @@ main =
         el "thead" . el "tr" $ forM_ colNames $ \n ->
             el "th" (text n)
         el "tbody" . forM_ table $ \Entry{..} -> do
-          let cells = [toString a, toString b, show c, show d]
+          let cells = [a, b, toText $ show c, toText $ show d]
           el "tr" . forM_ cells $ \cell -> do
                 el "td" (text cell)
 

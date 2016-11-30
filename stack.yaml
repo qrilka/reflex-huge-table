@@ -12,13 +12,15 @@ packages:
 - '.'
 - location:
     git: git@github.com:reflex-frp/reflex.git
-    commit: 312b1905557671ae223813e7430ab07d2b65d0f7
+    commit: 91299fce0bb2caddfba35af6608df57dd31e3690
 - location:
     git: git@github.com:reflex-frp/reflex-dom.git
-    commit: ad83d0b6b1e3388713f8ae31a8efd2542ea372f9
+    commit: 66b6d35773fcb337ab38ebce02c4b23baeae721e
 
 extra-deps:
 - ghcjs-dom-0.2.4.0
 - ref-tf-0.4.0.1
 - data-default-0.6.0
 - data-default-instances-base-0.1.0.1
+- prim-uniq-0.1.0.1
+- zenc-0.1.1
