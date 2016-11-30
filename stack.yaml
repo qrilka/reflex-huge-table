@@ -14,7 +14,7 @@ packages:
     git: git@github.com:reflex-frp/reflex.git
     commit: 312b1905557671ae223813e7430ab07d2b65d0f7
 - location:
-    git: git@github.com:qrilka/reflex-dom.git
+    git: git@github.com:reflex-frp/reflex-dom.git
     commit: ad83d0b6b1e3388713f8ae31a8efd2542ea372f9
 
 extra-deps:
